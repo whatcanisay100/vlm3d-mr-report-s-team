@@ -1,0 +1,45 @@
+
+
+
+L = ['Cerebral infarction','Cerebral hemorrhage','Metastatic malignant neoplasm to brain','Intracranial meningioma','Demyelinating disease of central nervous system','Herniation of nucleus pulposus','Spinal cord compression','Lacunar infarct','Silent micro-hemorrhage of brain','Cavernous hemangioma','Subdural intracranial hemorrhage','Gliosis','Cerebral atrophy','Encephalomalacia','Arachnoid cyst','Empty sella syndrome','Intracranial aneurysm','Chiari malformation','Schwannoma','Cyst of pineal gland','Hemangioma of vertebral column',"Rathke's pouch cyst",'Cerebral edema','Spinal stenosis','Mastoiditis','Chronic mastoiditis','Ventriculomegaly','Cerebellar degeneration','Mega cisterna magna','Structure of cave of septum pellucidum','Hyperostosis of skull','Watershed infarct','Choroid plexus cyst','Foraminal Spinal Stenosis','Lipoma of brain','Glioma','Pituitary adenoma']
+
+
+TEMPLATES = {
+    'Cerebral infarction': 'There is an area of acute/subacute infarction involving the {side} cerebral hemisphere.',
+    'Cerebral hemorrhage': 'A cerebral hemorrhage is identified in the {side} cerebral hemisphere.',
+    'Metastatic malignant neoplasm to brain': 'Multiple enhancing intra-axial masses suggestive of metastatic disease are present.',
+    'Intracranial meningioma': 'An extra-axial dural-based mass consistent with meningioma is noted.',
+    'Demyelinating disease of central nervous system': 'Multiple periventricular and juxtacortical T2/FLAIR hyperintense lesions consistent with demyelinating disease.',
+    'Lacunar infarct': 'Small lacunar infarcts are present in the basal ganglia and/or periventricular white matter.',
+    'Silent micro-hemorrhage of brain': 'Cerebral microbleeds are identified on susceptibility-weighted imaging.',
+    'Cavernous hemangioma': 'A cavernous malformation with characteristic popcorn appearance is noted.',
+    'Subdural intracranial hemorrhage': 'A subdural hematoma is present along the cerebral convexity.',
+    'Gliosis': 'Areas of gliosis are noted in the cerebral white matter.',
+    'Cerebral atrophy': 'Generalized cerebral atrophy with commensurate ventriculomegaly is present.',
+    'Encephalomalacia': 'Focal encephalomalacia is identified in the {side} cerebral hemisphere.',
+    'Arachnoid cyst': 'An arachnoid cyst is noted with CSF signal intensity.',
+    'Empty sella syndrome': 'The pituitary fossa demonstrates an empty sella configuration.',
+    'Intracranial aneurysm': 'A vascular aneurysm is identified on angiographic sequences.',
+    'Chiari malformation': 'Cerebellar tonsillar ectopia consistent with Chiari I malformation is present.',
+    'Schwannoma': 'A cerebellopontine angle mass consistent with vestibular schwannoma is identified.',
+    'Cyst of pineal gland': 'A benign-appearing pineal cyst is noted.',
+    'Hemangioma of vertebral column': 'A vertebral body hemangioma with characteristic T1/T2 hyperintensity is present.',
+    "Rathke's pouch cyst": 'A non-enhancing sellar/suprasellar cyst consistent with Rathke cleft cyst is noted.',
+    'Cerebral edema': 'Cerebral edema is present with effacement of sulci and/or ventricles.',
+    'Spinal stenosis': 'Cervical/lumbar spinal canal stenosis with cord compression is identified.',
+    'Mastoiditis': 'Mucosal thickening in the mastoid air cells consistent with mastoiditis is present.',
+    'Chronic mastoiditis': 'Chronic mastoiditis is noted within the mastoid air cells.',
+    'Ventriculomegaly': 'Ventriculomegaly is present out of proportion to sulcal prominence.',
+    'Cerebellar degeneration': 'Cerebellar atrophy with prominent folia is present.',
+    'Mega cisterna magna': 'A prominent retrocerebellar CSF space consistent with mega cisterna magna.',
+    'Structure of cave of septum pellucidum': 'A cavum septum pellucidum is noted as an incidental finding.',
+    'Hyperostosis of skull': 'Calvarial hyperostosis is present.',
+    'Watershed infarct': 'Watershed infarcts are identified in the borderzone territories.',
+    'Choroid plexus cyst': 'A choroid plexus cyst is noted as an incidental finding.',
+    'Foraminal Spinal Stenosis': 'Neural foraminal stenosis is present at multiple levels.',
+    'Lipoma of brain': 'A small intracranial lipoma is identified with characteristic T1 hyperintensity.',
+    'Glioma': 'An infiltrative intra-axial mass consistent with glioma is present.',
+    'Pituitary adenoma': 'A sellar mass consistent with pituitary adenoma is identified.',
+    'Herniation of nucleus pulposus': 'Disc herniation with thecal sac compression is identified at {level}.',
+    'Spinal cord compression': 'Spinal cord compression is present with associated myelomalacia.',
+}

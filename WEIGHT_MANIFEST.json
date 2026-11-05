@@ -1,0 +1,48 @@
+{
+  "submission_ID": "1e7ab392",
+  "files": [
+    {
+      "path": "adapter/adapter_config.json",
+      "bytes": 1105,
+      "SHA256": "3cf40dff3869e9beafde43fd2e1bdb0621115f2fea3c8ccec28fc19b012abab3",
+      "metadata_only_change": "base_model_name_or_path normalized; tensor file unchanged"
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 550593184,
+      "SHA256": "31169e2ea3a6b776357efbb0e0e87a74f357080273f2442d16313dd2c28b2c50"
+    },
+    {
+      "path": "bundle/bmvp_heads.pt",
+      "bytes": 105869041,
+      "SHA256": "df6a3e871f8c560fc44408c7a97abb1f0e0202a03f24cac142f2ad13daa8f01a"
+    },
+    {
+      "path": "bundle/fomo_heads.pt",
+      "bytes": 63925809,
+      "SHA256": "3f0b6ed438b86bb94f41dc15f062f5568feefa26478942fc9abeddadfd94cffa"
+    },
+    {
+      "path": "bundle/bmvp_preprocessor.npz",
+      "bytes": 302458666,
+      "SHA256": "a2c97f1ed57d05b2f4db6032106256fe0251009b909bfeae9d5caaed6598a5d6"
+    },
+    {
+      "path": "bundle/fomo_preprocessor.npz",
+      "bytes": 8708,
+      "SHA256": "50513fca5415f5e42431921cbaefe31c077ed20b6ed65c9bd448ce7134481c0d"
+    },
+    {
+      "path": "bundle/label_map.json",
+      "bytes": 1228,
+      "SHA256": "b6a27401b6ed47a53f6b08637b0345752dfae6721b84b1466c2b872ebec53a6d"
+    }
+  ],
+  "excluded_upstream_weights": [
+    "bmvp/BrainMVP_uniformer.pt",
+    "qwen14b/",
+    "fomo/seed17.pt",
+    "fomo/seed42.pt",
+    "fomo/seed73.pt"
+  ]
+}

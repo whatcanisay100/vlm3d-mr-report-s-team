@@ -1,0 +1,6 @@
+weights/
+data/
+work/
+__pycache__/
+*.pyc
+runtime/app/evaluation_v2.py
